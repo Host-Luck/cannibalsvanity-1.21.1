@@ -11,9 +11,9 @@ import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 
 // This class will not load on dedicated servers. Accessing client side code from here is safe.
-@Mod(value = CannibalVanity.MODID, dist = Dist.CLIENT)
+@Mod(value = CannibalsVanity.MOD_ID, dist = Dist.CLIENT)
 // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
-@EventBusSubscriber(modid = CannibalVanity.MODID, value = Dist.CLIENT)
+@EventBusSubscriber(modid = CannibalsVanity.MOD_ID, value = Dist.CLIENT)
 public class CannibalVanityClient {
     public CannibalVanityClient(ModContainer container) {
         // Allows NeoForge to create a config screen for this mod's configs.
@@ -25,7 +25,7 @@ public class CannibalVanityClient {
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
         // Some client setup code
-        CannibalVanity.LOGGER.info("HELLO FROM CLIENT SETUP");
-        CannibalVanity.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+        CannibalsVanity.LOGGER.info("HELLO FROM CLIENT SETUP");
+        CannibalsVanity.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
     }
 }
