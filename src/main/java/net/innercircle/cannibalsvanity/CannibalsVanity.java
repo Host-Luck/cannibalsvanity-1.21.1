@@ -45,7 +45,6 @@ public class CannibalsVanity {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.TOUGHFLESH);
-            event.accept(ModItems.TOUGHBONE);
         }
     }
 
