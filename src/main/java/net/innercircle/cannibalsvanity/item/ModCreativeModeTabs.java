@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.TOUGHFLESH);
                         output.accept(ModItems.TOUGHBONE);
+                        output.accept(ModItems.SALT);
                     }).build());
 
     public static final Supplier<CreativeModeTab> CANNIBALS_BLOCKS_TAB = CREATIVE_MODE_TAB.register("cannibals_blocks_tab",
