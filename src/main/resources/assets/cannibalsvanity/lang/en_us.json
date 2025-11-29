@@ -1,4 +1,9 @@
 {
   "item.cannibalsvanity.toughflesh": "Tough Flesh",
-  "item.cannibalsvanity.toughbone": "Tough Bone"
+  "item.cannibalsvanity.toughbone": "Tough Bone",
+
+  "block.cannibalsvanity.toughflesh_block": "Block of Flesh",
+
+  "creativetab.cannibalsvanity.cannibals_items": "Cannibal's Items",
+  "creativetab.cannibalsvanity.cannibals_blocks": "Cannibal's Blocks"
 }

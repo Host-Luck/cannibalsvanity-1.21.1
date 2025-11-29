@@ -1,6 +1,8 @@
 package net.innercircle.cannibalsvanity;
 
 import com.mojang.logging.LogUtils;
+import net.innercircle.cannibalsvanity.block.ModBlocks;
+import net.innercircle.cannibalsvanity.item.ModCreativeModeTabs;
 import net.innercircle.cannibalsvanity.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.bus.api.IEventBus;
@@ -30,7 +32,10 @@ public class CannibalsVanity {
 
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -49,6 +54,9 @@ public class CannibalsVanity {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.TOUGHFLESH);
             event.accept(ModItems.TOUGHBONE);
+        }
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.TOUGHFLESH_BLOCK);
         }
     }
 
