@@ -32,6 +32,17 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.cannibalsvanity.cannibals_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.TOUGHFLESH_BLOCK);
+
+                        output.accept(ModBlocks.CORPSE_BLOCK);
+                        output.accept(ModBlocks.CORPSE_STAIRS);
+                        output.accept(ModBlocks.CORPSE_SLAB);
+                        output.accept(ModBlocks.CORPSE_WALL);
+                        output.accept(ModBlocks.CORPSE_FENCE);
+                        output.accept(ModBlocks.CORPSE_GATE);
+                        output.accept(ModBlocks.CORPSE_DOOR);
+                        output.accept(ModBlocks.CORPSE_TRAPDOOR);
+                        output.accept(ModBlocks.CORPSE_PRESSUREPLATE);
+                        output.accept(ModBlocks.CORPSE_BUTTON);
                     }).build());
 
 

@@ -1,0 +1,20 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "button": "cannibalsvanity:blocks/corpse_block"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 2, 16],
+      "faces": {
+        "north": { "texture": "#button", "cullface": "north" },
+        "south": { "texture": "#button", "cullface": "south" },
+        "west": { "texture": "#button", "cullface": "west" },
+        "east": { "texture": "#button", "cullface": "east" },
+        "up": { "texture": "#button", "cullface": "up" },
+        "down": { "texture": "#button", "cullface": "down" }
+      }
+    }
+  ]
+}

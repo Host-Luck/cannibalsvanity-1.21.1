@@ -6,6 +6,15 @@
 
   "block.cannibalsvanity.toughflesh_block": "Block of Flesh",
   "block.cannibalsvanity.corpse_block": "Block of Corpses",
+  "block.cannibalsvanity.corpse_stairs": "Corpse Stairs",
+  "block.cannibalsvanity.corpse_button": "Corpse Button",
+  "block.cannibalsvanity.corpse_slab": "Corpse Slab",
+  "block.cannibalsvanity.corpse_fence": "Corpse Fence",
+  "block.cannibalsvanity.corpse_gate": "Corpse Gate",
+  "block.cannibalsvanity.corpse_door": "Corpse Door",
+  "block.cannibalsvanity.corpse_trapdoor": "Corpse Trapdoor",
+  "block.cannibalsvanity.corpse_pressureplate": "Corpse Pressure Plate",
+  "block.cannibalsvanity.corpse_wall": "Corpse Wall",
 
   "creativetab.cannibalsvanity.cannibals_items": "Cannibal's Items",
   "creativetab.cannibalsvanity.cannibals_blocks": "Cannibal's Blocks"

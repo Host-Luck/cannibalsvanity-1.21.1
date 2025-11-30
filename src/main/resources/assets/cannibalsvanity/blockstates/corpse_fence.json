@@ -1,0 +1,55 @@
+{
+  "variants": {
+    "": {
+      "model": "yourmodid:block/your_fence_model"
+    },
+    "north=false,south=false,east=false,west=false": {
+      "model": "yourmodid:block/your_fence_model"
+    },
+    "north=true,south=false,east=false,west=false": {
+      "model": "yourmodid:block/your_fence_post_model"
+    },
+    "north=false,south=true,east=false,west=false": {
+      "model": "yourmodid:block/your_fence_post_model"
+    },
+    "north=false,south=false,east=true,west=false": {
+      "model": "yourmodid:block/your_fence_post_model"
+    },
+    "north=false,south=false,east=false,west=true": {
+      "model": "yourmodid:block/your_fence_post_model"
+    },
+    "north=true,south=true,east=false,west=false": {
+      "model": "yourmodid:block/your_fence_side_ns_model"
+    },
+    "north=false,south=false,east=true,west=true": {
+      "model": "yourmodid:block/your_fence_side_ew_model"
+    },
+    "north=true,south=false,east=true,west=false": {
+      "model": "yourmodid:block/your_fence_side_ne_model"
+    },
+    "north=true,south=false,east=false,west=true": {
+      "model": "yourmodid:block/your_fence_side_nw_model"
+    },
+    "north=false,south=true,east=true,west=false": {
+      "model": "yourmodid:block/your_fence_side_se_model"
+    },
+    "north=false,south=true,east=false,west=true": {
+      "model": "yourmodid:block/your_fence_side_sw_model"
+    },
+    "north=true,south=true,east=true,west=false": {
+      "model": "yourmodid:block/your_fence_side_nse_model"
+    },
+    "north=true,south=true,east=false,west=true": {
+      "model": "yourmodid:block/your_fence_side_nsw_model"
+    },
+    "north=true,south=false,east=true,west=true": {
+      "model": "yourmodid:block/your_fence_side_new_model"
+    },
+    "north=false,south=true,east=true,west=true": {
+      "model": "yourmodid:block/your_fence_side_sew_model"
+    },
+    "north=true,south=true,east=true,west=true": {
+      "model": "yourmodid:block/your_fence_post_model"
+    }
+  }
+}

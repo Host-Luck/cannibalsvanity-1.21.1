@@ -1,16 +1,12 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:smelting",
   "category": "misc",
-  "ingredients": [
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:water_bucket"
-    }
-  ],
+  "cookingtime": 150,
+  "experience": 1,
+  "ingredient": {
+    "item": "minecraft:water_bucket"
+  },
   "result": {
-    "count": 9,
     "id": "cannibalsvanity:salt"
   }
 }
