@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bone_block"
+    },
+    "F": {
+      "item": "cannibalsvanity:toughflesh"
+    },
+    "b": {
+      "item": "cannibalsvanity:toughbone"
+    }
+  },
+  "pattern": [
+    "FbF",
+    "bBb",
+    "FbF"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cannibalsvanity:corpse_block"
+  }
+}

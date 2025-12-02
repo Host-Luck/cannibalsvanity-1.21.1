@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "group": "flesh",
+  "ingredient": {
+    "item": "cannibalsvanity:toughflesh"
+  },
+  "result": {
+    "count": 1,
+    "id": "cannibalsvanity:cookedflesh"
+  }
+}
