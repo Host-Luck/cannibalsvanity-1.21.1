@@ -1,4 +1,33 @@
 package net.innercircle.cannibalsvanity.datagen;
 
-public class ModBlockTagProvider {
+import net.innercircle.cannibalsvanity.CannibalsVanity;
+import net.innercircle.cannibalsvanity.block.ModBlocks;
+import net.minecraft.core.HolderLookup;
+import net.minecraft.data.PackOutput;
+import net.minecraft.tags.BlockTags;
+import net.neoforged.neoforge.common.data.BlockTagsProvider;
+import net.neoforged.neoforge.common.data.ExistingFileHelper;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.concurrent.CompletableFuture;
+
+public class ModBlockTagProvider extends BlockTagsProvider {
+    public ModBlockTagProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, @Nullable ExistingFileHelper existingFileHelper) {
+        super(output, lookupProvider, CannibalsVanity.MOD_ID, existingFileHelper);
+    }
+
+    @Override
+    protected void addTags(HolderLookup.Provider provider) {
+        tag(BlockTags.MINEABLE_WITH_SHOVEL)
+                .add(ModBlocks.CORPSE_BLOCK.get())
+                .add(ModBlocks.CORPSE_WALL.get())
+                .add(ModBlocks.CORPSE_TRAPDOOR.get())
+                .add(ModBlocks.CORPSE_PRESSUREPLATE.get())
+                .add(ModBlocks.CORPSE_DOOR.get())
+                .add(ModBlocks.CORPSE_FENCE.get())
+                .add(ModBlocks.CORPSE_GATE.get())
+                .add(ModBlocks.CORPSE_SLAB.get())
+                .add(ModBlocks.CORPSE_STAIRS.get())
+                .add(ModBlocks.CORPSE_BUTTON.get());
+    }
 }
