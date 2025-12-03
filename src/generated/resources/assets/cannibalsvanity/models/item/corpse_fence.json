@@ -1,3 +1,6 @@
 {
-  "parent": "cannibalsvanity:block/corpse_fence"
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "texture": "cannibalsvanity:block/corpse_block"
+  }
 }

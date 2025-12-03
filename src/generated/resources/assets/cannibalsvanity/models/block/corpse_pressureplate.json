@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/pressure_plate_up",
   "textures": {
-    "all": "cannibalsvanity:block/corpse_pressureplate"
+    "texture": "cannibalsvanity:block/corpse_block"
   }
 }

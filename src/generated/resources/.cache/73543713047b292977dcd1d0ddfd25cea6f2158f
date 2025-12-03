@@ -1,2 +1,5 @@
-// 1.21.1	2025-12-02T17:08:36.540549	Tags for minecraft:block mod id cannibalsvanity
+// 1.21.1	2025-12-02T20:17:12.5507962	Tags for minecraft:block mod id cannibalsvanity
+2dec3d6535f6e606717e9c9f0e1f86748ea3b9d6 data/minecraft/tags/block/fences.json
+9ed1b3e5be4d63fc5b795a8150a905dca164d55f data/minecraft/tags/block/fence_gates.json
 fecd923ed08287a0496351cf954df0e6c93ec9a1 data/minecraft/tags/block/mineable/shovel.json
+e7f9d4fe7d1fb100a98b8375abb838e90af937c7 data/minecraft/tags/block/walls.json

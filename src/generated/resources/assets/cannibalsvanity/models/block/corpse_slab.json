@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/slab",
   "textures": {
-    "all": "cannibalsvanity:block/corpse_slab"
+    "bottom": "cannibalsvanity:block/corpse_block",
+    "side": "cannibalsvanity:block/corpse_block",
+    "top": "cannibalsvanity:block/corpse_block"
   }
 }

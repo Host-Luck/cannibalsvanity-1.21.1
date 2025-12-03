@@ -1,7 +1,10 @@
 {
   "variants": {
-    "": {
+    "powered=false": {
       "model": "cannibalsvanity:block/corpse_pressureplate"
+    },
+    "powered=true": {
+      "model": "cannibalsvanity:block/corpse_pressureplate_down"
     }
   }
 }
