@@ -24,6 +24,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.TOUGHBONE);
                         output.accept(ModItems.SALT);
                         output.accept(ModItems.COOKEDFLESH);
+
+                        output.accept(ModItems.CORPSE_AXE);
+                        output.accept(ModItems.CORPSE_SHOVEL);
+                        output.accept(ModItems.CORPSE_PICKAXE);
+                        output.accept(ModItems.CORPSE_PLOW);
+                        output.accept(ModItems.CORPSE_SWORD);
                     }).build());
 
     public static final Supplier<CreativeModeTab> CANNIBALS_BLOCKS_TAB = CREATIVE_MODE_TAB.register("cannibals_blocks_tab",

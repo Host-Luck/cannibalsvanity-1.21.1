@@ -2,6 +2,7 @@ package net.innercircle.cannibalsvanity.datagen;
 
 import net.innercircle.cannibalsvanity.CannibalsVanity;
 import net.innercircle.cannibalsvanity.block.ModBlocks;
+import net.innercircle.cannibalsvanity.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -36,5 +37,11 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.CORPSE_GATE.get());
         tag(BlockTags.WALLS)
                 .add(ModBlocks.CORPSE_WALL.get());
+
+        tag(ModTags.Blocks.NEEDS_CORPSE_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
+        tag(ModTags.Blocks.INCORRECT_FOR_CORPSE_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
+                .remove(ModTags.Blocks.NEEDS_CORPSE_TOOL);
     }
 }

@@ -10,6 +10,10 @@ import net.minecraft.world.level.block.Block;
 
 public class ModTags {
     public static class Blocks {
+
+        public static final TagKey<Block> NEEDS_CORPSE_TOOL = createTag("needs_corpse_tool");
+        public static final TagKey<Block> INCORRECT_FOR_CORPSE_TOOL = createTag("incorrect_for_corpse_tool");
+
         public static final TagKey<Block> FLESH = createTag("flesh");
         public static final TagKey<Block> BONE = createTag("bone");
         public static final TagKey<Block> CORPSE = createTag("corpse");

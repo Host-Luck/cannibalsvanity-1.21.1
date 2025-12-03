@@ -4,6 +4,12 @@
   "item.cannibalsvanity.salt": "Salt",
   "item.cannibalsvanity.cookedflesh": "Cooked Flesh",
 
+  "item.cannibalsvanity.corpse_sword": "Visceral Sword",
+  "item.cannibalsvanity.corpse_axe": "Oseo Axe",
+  "item.cannibalsvanity.corpse_pickaxe": "Oseo Pickaxe",
+  "item.cannibalsvanity.corpse_shovel": "Oseo Shovel",
+  "item.cannibalsvanity.corpse_hoe": "Visceral Plow",
+
   "block.cannibalsvanity.toughflesh_block": "Block of Flesh",
   "block.cannibalsvanity.corpse_block": "Block of Corpses",
   "block.cannibalsvanity.corpse_stairs": "Corpse Stairs",
