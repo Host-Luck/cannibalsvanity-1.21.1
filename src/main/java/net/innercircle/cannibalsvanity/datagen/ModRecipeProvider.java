@@ -62,6 +62,25 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreSmelting(recipeOutput, SALT_DRYING, RecipeCategory.MISC, ModItems.SALT.get(), 0.5f, 200, "bone");
         oreSmelting(recipeOutput, CANNIBALISM, RecipeCategory.MISC, ModItems.COOKEDFLESH.get(), 0.50f, 200, "flesh");
         oreCooking(recipeOutput, CANNIBALISM, RecipeCategory.MISC, ModItems.COOKEDFLESH.get(), 0.5f, 100, "flesh");
+
+        stairBuilder(ModBlocks.CORPSE_STAIRS.get(), Ingredient.of(ModBlocks.CORPSE_BLOCK)).group("corpse")
+                .unlockedBy("has_corpse", has(ModBlocks.CORPSE_BLOCK)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CORPSE_SLAB.get(), ModBlocks.CORPSE_BLOCK.get());
+
+        buttonBuilder(ModBlocks.CORPSE_BUTTON.get(), Ingredient.of(ModBlocks.CORPSE_BLOCK)).group("corpse")
+                .unlockedBy("has_corpse", has(ModBlocks.CORPSE_BLOCK)).save(recipeOutput);
+        pressurePlate(recipeOutput, ModBlocks.CORPSE_PRESSUREPLATE.get(), ModBlocks.CORPSE_BLOCK.get());
+
+        fenceBuilder(ModBlocks.CORPSE_FENCE.get(), Ingredient.of(ModBlocks.CORPSE_BLOCK)).group("corpse")
+                .unlockedBy("has_corpse", has(ModBlocks.CORPSE_BLOCK)).save(recipeOutput);
+        fenceGateBuilder(ModBlocks.CORPSE_GATE.get(), Ingredient.of(ModBlocks.CORPSE_BLOCK)).group("corpse")
+                .unlockedBy("has_corpse", has(ModBlocks.CORPSE_BLOCK)).save(recipeOutput);
+        wall(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CORPSE_WALL.get(), ModBlocks.CORPSE_BLOCK.get());
+
+        doorBuilder(ModBlocks.CORPSE_DOOR.get(), Ingredient.of(ModBlocks.CORPSE_BLOCK)).group("corpse")
+                .unlockedBy("has_corpse", has(ModBlocks.CORPSE_BLOCK)).save(recipeOutput);
+        trapdoorBuilder(ModBlocks.CORPSE_TRAPDOOR.get(), Ingredient.of(ModBlocks.CORPSE_BLOCK)).group("corpse")
+                .unlockedBy("has_corpse", has(ModBlocks.CORPSE_BLOCK)).save(recipeOutput);
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

@@ -29,5 +29,12 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.CORPSE_SLAB.get())
                 .add(ModBlocks.CORPSE_STAIRS.get())
                 .add(ModBlocks.CORPSE_BUTTON.get());
+
+        tag(BlockTags.FENCES)
+                .add(ModBlocks.CORPSE_FENCE.get());
+        tag(BlockTags.FENCE_GATES)
+                .add(ModBlocks.CORPSE_GATE.get());
+        tag(BlockTags.WALLS)
+                .add(ModBlocks.CORPSE_WALL.get());
     }
 }

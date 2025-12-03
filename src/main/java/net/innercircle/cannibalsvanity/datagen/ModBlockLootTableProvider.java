@@ -20,13 +20,16 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.TOUGHFLESH_BLOCK.get());
         dropSelf(ModBlocks.CORPSE_STAIRS.get());
         dropSelf(ModBlocks.CORPSE_BUTTON.get());
-        dropSelf(ModBlocks.CORPSE_DOOR.get());
         dropSelf(ModBlocks.CORPSE_FENCE.get());
         dropSelf(ModBlocks.CORPSE_GATE.get());
         dropSelf(ModBlocks.CORPSE_PRESSUREPLATE.get());
-        dropSelf(ModBlocks.CORPSE_SLAB.get());
         dropSelf(ModBlocks.CORPSE_TRAPDOOR.get());
         dropSelf(ModBlocks.CORPSE_WALL.get());
+
+        add(ModBlocks.CORPSE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.CORPSE_SLAB.get()));
+        add(ModBlocks.CORPSE_DOOR.get(),
+                block -> createDoorTable(ModBlocks.CORPSE_DOOR.get()));
     }
 
     @Override
