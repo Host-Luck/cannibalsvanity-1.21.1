@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "cannibalsvanity:block/corpse_block",
+    "side": "cannibalsvanity:block/corpse_block",
+    "top": "cannibalsvanity:block/corpse_block"
+  }
+}
