@@ -1,8 +1,13 @@
-// 1.21.1	2025-12-02T20:17:12.5525389	Item Models: cannibalsvanity
+// 1.21.1	2025-12-04T08:44:12.2722831	Item Models: cannibalsvanity
 10756ac8f9bb36c1f1c8f3a092571cf5ee8a1210 assets/cannibalsvanity/models/item/cookedflesh.json
+d9dea0279baff42fc7319aa1a5eddb2522f15514 assets/cannibalsvanity/models/item/corpse_axe.json
 e16b1b4214be6a60fabf315e5c89b2b17fdbdf9c assets/cannibalsvanity/models/item/corpse_button.json
 fb3760521cd997f9d212f73db7f9dbc6239c5410 assets/cannibalsvanity/models/item/corpse_door.json
 3e1040fb2acf1ac123bf268cd03436148aede23a assets/cannibalsvanity/models/item/corpse_fence.json
+5b514dc2db4d8afe011c7b0d9ff91dd164ebbd5a assets/cannibalsvanity/models/item/corpse_pickaxe.json
+73758da6b445bc7e566a14218cd7f1b57329210b assets/cannibalsvanity/models/item/corpse_plow.json
+95ece57dbc302f42b9b6d20cb3f5a674cb9ba360 assets/cannibalsvanity/models/item/corpse_shovel.json
+ca66b2d6d299309275b3cc1b28c86d97fc6eff24 assets/cannibalsvanity/models/item/corpse_sword.json
 7c38b0c877f9f08b5869d390c728b906144c2a6b assets/cannibalsvanity/models/item/corpse_wall.json
 fe146f60511a2579ee83100474f8d4b8ecfec1f3 assets/cannibalsvanity/models/item/salt.json
 0fb3d23bfefac600a57cc23e5013292fbbdcc0e5 assets/cannibalsvanity/models/item/toughbone.json

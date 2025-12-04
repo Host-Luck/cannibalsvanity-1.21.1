@@ -1,2 +1,7 @@
-// 1.21.1	2025-12-02T17:08:36.540549	Tags for minecraft:item mod id cannibalsvanity
+// 1.21.1	2025-12-04T08:44:12.2743542	Tags for minecraft:item mod id cannibalsvanity
 ddc9a66445f38982ac8b56db8d754ef2a8813f47 data/cannibalsvanity/tags/item/flesh.json
+e18e3cb6e78dfb496e9a91d189371ce6ae2c2651 data/minecraft/tags/item/axes.json
+430156d5bb83a032d223e9869b61c28ffdb61c6c data/minecraft/tags/item/hoes.json
+29b9304a511f389b9ef946b35c681e5475f3e097 data/minecraft/tags/item/pickaxes.json
+f51f72e11cb4e10cb1a238146e3a7f0236f49efa data/minecraft/tags/item/shovels.json
+e7fcbf449c971a3f36ad0d72bf6bda99c6864645 data/minecraft/tags/item/swords.json

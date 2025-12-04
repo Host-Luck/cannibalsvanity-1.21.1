@@ -1,4 +1,6 @@
-// 1.21.1	2025-12-02T20:17:12.5507962	Tags for minecraft:block mod id cannibalsvanity
+// 1.21.1	2025-12-04T08:44:12.2708043	Tags for minecraft:block mod id cannibalsvanity
+7998508ebde3ad84b801c34b9f44a8887284a081 data/cannibalsvanity/tags/block/incorrect_for_corpse_tool.json
+a249c46329a41538f49a564e1f14338aaf1be5a0 data/cannibalsvanity/tags/block/needs_corpse_tool.json
 2dec3d6535f6e606717e9c9f0e1f86748ea3b9d6 data/minecraft/tags/block/fences.json
 9ed1b3e5be4d63fc5b795a8150a905dca164d55f data/minecraft/tags/block/fence_gates.json
 fecd923ed08287a0496351cf954df0e6c93ec9a1 data/minecraft/tags/block/mineable/shovel.json
