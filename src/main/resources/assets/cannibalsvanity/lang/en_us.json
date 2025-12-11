@@ -10,6 +10,15 @@
   "item.cannibalsvanity.corpse_shovel": "Oseo Shovel",
   "item.cannibalsvanity.corpse_hoe": "Visceral Plow",
 
+  "item.cannibalsvanity.corpse_helmet": "Drauger Head",
+  "item.cannibalsvanity.corpse_chestplate": "Drauger Torso",
+  "item.cannibalsvanity.corpse_leggings": "Drauger Legs",
+  "item.cannibalsvanity.corpse_boots": "Drauger Feet",
+  "item.cannibalsvanity.bone_helmet": "Cranium",
+  "item.cannibalsvanity.bone_chestplate": "Rib Chestplate",
+  "item.cannibalsvanity.bone_leggings": "Femur Leggings",
+  "item.cannibalsvanity.bone_boots": "Cobbled Bone Boots",
+
   "block.cannibalsvanity.toughflesh_block": "Block of Flesh",
   "block.cannibalsvanity.corpse_block": "Block of Corpses",
   "block.cannibalsvanity.corpse_stairs": "Corpse Stairs",

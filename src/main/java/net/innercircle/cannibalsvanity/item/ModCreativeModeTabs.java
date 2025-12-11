@@ -30,6 +30,16 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CORPSE_PICKAXE);
                         output.accept(ModItems.CORPSE_PLOW);
                         output.accept(ModItems.CORPSE_SWORD);
+
+                        output.accept(ModItems.BONE_HELMET);
+                        output.accept(ModItems.BONE_CHESTPLATE);
+                        output.accept(ModItems.BONE_LEGGINGS);
+                        output.accept(ModItems.BONE_BOOTS);
+
+                        output.accept(ModItems.CORPSE_HELMET);
+                        output.accept(ModItems.CORPSE_CHESTPLATE);
+                        output.accept(ModItems.CORPSE_LEGGINGS);
+                        output.accept(ModItems.CORPSE_BOOTS);
                     }).build());
 
     public static final Supplier<CreativeModeTab> CANNIBALS_BLOCKS_TAB = CREATIVE_MODE_TAB.register("cannibals_blocks_tab",
