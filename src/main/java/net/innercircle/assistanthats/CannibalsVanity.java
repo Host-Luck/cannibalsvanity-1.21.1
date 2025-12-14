@@ -1,10 +1,9 @@
-package net.innercircle.cannibalsvanity;
+package net.innercircle.assistanthats;
 
 import com.mojang.logging.LogUtils;
-import net.innercircle.cannibalsvanity.block.ModBlocks;
-import net.innercircle.cannibalsvanity.item.ModCreativeModeTabs;
-import net.innercircle.cannibalsvanity.item.ModItems;
-import net.minecraft.world.item.CreativeModeTabs;
+import net.innercircle.assistanthats.block.ModBlocks;
+import net.innercircle.assistanthats.item.ModCreativeModeTabs;
+import net.innercircle.assistanthats.item.ModItems;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
@@ -17,17 +16,17 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
-@Mod(CannibalsVanity.MOD_ID)
-public class CannibalsVanity {
+@Mod(AssistantHats.MOD_ID)
+public class AssistantHats {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "cannibalsvanity";
+    public static final String MOD_ID = "assistanthats";
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
 
 
 
 
-    public CannibalsVanity(IEventBus modEventBus, ModContainer modContainer) {
+    public AssistantHats(IEventBus modEventBus, ModContainer modContainer) {
         modEventBus.addListener(this::commonSetup);
 
         NeoForge.EVENT_BUS.register(this);

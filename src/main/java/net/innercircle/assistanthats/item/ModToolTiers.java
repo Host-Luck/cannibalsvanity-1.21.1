@@ -1,7 +1,7 @@
-package net.innercircle.cannibalsvanity.item;
+package net.innercircle.assistanthats.item;
 
-import net.innercircle.cannibalsvanity.block.ModBlocks;
-import net.innercircle.cannibalsvanity.util.ModTags;
+import net.innercircle.assistanthats.block.ModBlocks;
+import net.innercircle.assistanthats.util.ModTags;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.neoforged.neoforge.common.SimpleTier;

@@ -1,7 +1,7 @@
-package net.innercircle.cannibalsvanity.item;
+package net.innercircle.assistanthats.item;
 
-import net.innercircle.cannibalsvanity.CannibalsVanity;
-import net.innercircle.cannibalsvanity.block.ModBlocks;
+import net.innercircle.assistanthats.CannibalsVanity;
+import net.innercircle.assistanthats.block.ModBlocks;
 import net.minecraft.Util;
 import net.minecraft.core.Holder;
 import net.minecraft.core.Registry;

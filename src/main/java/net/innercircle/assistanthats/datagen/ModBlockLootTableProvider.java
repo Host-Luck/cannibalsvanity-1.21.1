@@ -1,6 +1,6 @@
-package net.innercircle.cannibalsvanity.datagen;
+package net.innercircle.assistanthats.datagen;
 
-import net.innercircle.cannibalsvanity.block.ModBlocks;
+import net.innercircle.assistanthats.block.ModBlocks;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.loot.BlockLootSubProvider;

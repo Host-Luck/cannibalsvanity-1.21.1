@@ -1,7 +1,7 @@
-package net.innercircle.cannibalsvanity.datagen;
+package net.innercircle.assistanthats.datagen;
 
-import net.innercircle.cannibalsvanity.CannibalsVanity;
-import net.innercircle.cannibalsvanity.block.ModBlocks;
+import net.innercircle.assistanthats.CannibalsVanity;
+import net.innercircle.assistanthats.block.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.client.model.generators.ModelFile;

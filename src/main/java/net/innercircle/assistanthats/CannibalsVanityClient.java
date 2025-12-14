@@ -1,4 +1,4 @@
-package net.innercircle.cannibalsvanity;
+package net.innercircle.assistanthats;
 
 import net.minecraft.client.Minecraft;
 import net.neoforged.api.distmarker.Dist;

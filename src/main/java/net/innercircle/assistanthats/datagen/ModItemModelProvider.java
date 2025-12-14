@@ -1,16 +1,16 @@
-package net.innercircle.cannibalsvanity.datagen;
+package net.innercircle.assistanthats.datagen;
 
-import net.innercircle.cannibalsvanity.CannibalsVanity;
-import net.innercircle.cannibalsvanity.block.ModBlocks;
-import net.innercircle.cannibalsvanity.item.ModItems;
+import net.innercircle.assistanthats.CannibalsVanity;
+import net.innercircle.assistanthats.block.ModBlocks;
+import net.innercircle.assistanthats.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.armortrim.TrimMaterial;
 import net.minecraft.world.item.armortrim.TrimMaterials;
 import net.minecraft.world.level.block.Block;
-import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
 import net.neoforged.neoforge.client.model.generators.ItemModelBuilder;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
@@ -60,6 +60,24 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     private void trimmedArmorItem(DeferredItem<Item> itemDeferredItem) {
         final String MOD_ID = CannibalsVanity.MOD_ID;
+
+        if(itemDeferredItem.get() instanceof ArmorItem armorItem) {
+            trimMaterials.forEach((trimMaterial, value) -> {
+                float trimValue = value;
+
+                String armorType = switch (armorItem.getEquipmentSlot()) {
+                    case HEAD -> "helmet";
+                    case CHEST -> "chestplate";
+                    case LEGS -> "leggings";
+                    case FEET -> "boots";
+                    default -> "";
+                };
+
+                String armorItemPath = armorItem.toString();
+                String trimPath = "trims/items/" + armorType + "_trim_" + trimMaterial.location().getPath();
+
+            });
+        }
     }
 
     public void buttonItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {

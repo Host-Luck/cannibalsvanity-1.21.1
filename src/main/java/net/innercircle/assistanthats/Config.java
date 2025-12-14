@@ -1,4 +1,4 @@
-package net.innercircle.cannibalsvanity;
+package net.innercircle.assistanthats;
 
 import net.neoforged.neoforge.common.ModConfigSpec;
 

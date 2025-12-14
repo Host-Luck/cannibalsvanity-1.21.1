@@ -1,8 +1,8 @@
-package net.innercircle.cannibalsvanity.datagen;
+package net.innercircle.assistanthats.datagen;
 
-import net.innercircle.cannibalsvanity.CannibalsVanity;
-import net.innercircle.cannibalsvanity.block.ModBlocks;
-import net.innercircle.cannibalsvanity.item.ModItems;
+import net.innercircle.assistanthats.CannibalsVanity;
+import net.innercircle.assistanthats.block.ModBlocks;
+import net.innercircle.assistanthats.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;

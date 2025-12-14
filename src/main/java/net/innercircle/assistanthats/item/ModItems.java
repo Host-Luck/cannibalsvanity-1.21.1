@@ -1,6 +1,6 @@
-package net.innercircle.cannibalsvanity.item;
+package net.innercircle.assistanthats.item;
 
-import net.innercircle.cannibalsvanity.CannibalsVanity;
+import net.innercircle.assistanthats.CannibalsVanity;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;

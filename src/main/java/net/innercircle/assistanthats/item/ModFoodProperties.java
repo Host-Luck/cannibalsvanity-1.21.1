@@ -1,7 +1,6 @@
-package net.innercircle.cannibalsvanity.item;
+package net.innercircle.assistanthats.item;
 
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 
 public class ModFoodProperties {

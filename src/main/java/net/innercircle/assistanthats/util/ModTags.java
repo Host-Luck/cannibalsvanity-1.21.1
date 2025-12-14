@@ -1,6 +1,6 @@
-package net.innercircle.cannibalsvanity.util;
+package net.innercircle.assistanthats.util;
 
-import net.innercircle.cannibalsvanity.CannibalsVanity;
+import net.innercircle.assistanthats.CannibalsVanity;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;

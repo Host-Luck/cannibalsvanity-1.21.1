@@ -1,7 +1,7 @@
-package net.innercircle.cannibalsvanity.block;
+package net.innercircle.assistanthats.block;
 
-import net.innercircle.cannibalsvanity.CannibalsVanity;
-import net.innercircle.cannibalsvanity.item.ModItems;
+import net.innercircle.assistanthats.CannibalsVanity;
+import net.innercircle.assistanthats.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
