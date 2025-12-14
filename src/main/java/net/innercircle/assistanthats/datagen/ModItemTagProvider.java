@@ -1,6 +1,7 @@
 package net.innercircle.assistanthats.datagen;
 
-import net.innercircle.assistanthats.CannibalsVanity;
+import net.innercircle.assistanthats.AssistantHats;
+import net.innercircle.assistanthats.AssistantHats;
 import net.innercircle.assistanthats.item.ModItems;
 import net.innercircle.assistanthats.util.ModTags;
 import net.minecraft.core.HolderLookup;
@@ -17,7 +18,7 @@ import java.util.concurrent.CompletableFuture;
 public class ModItemTagProvider extends ItemTagsProvider {
     public ModItemTagProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider,
                               CompletableFuture<TagLookup<Block>> blockTags, @Nullable ExistingFileHelper existingFileHelper) {
-        super(output, lookupProvider, blockTags, CannibalsVanity.MOD_ID, existingFileHelper);
+        super(output, lookupProvider, blockTags, AssistantHats.MOD_ID, existingFileHelper);
     }
 
     @Override

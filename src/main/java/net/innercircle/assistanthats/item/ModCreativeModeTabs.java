@@ -1,5 +1,6 @@
 package net.innercircle.assistanthats.item;
 
+import net.innercircle.assistanthats.AssistantHats;
 import net.innercircle.assistanthats.CannibalsVanity;
 import net.innercircle.assistanthats.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
@@ -14,32 +15,13 @@ import java.util.function.Supplier;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
-            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CannibalsVanity.MOD_ID);
+            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, AssistantHats.MOD_ID);
 
-    public static final Supplier<CreativeModeTab> CANNIBALS_ITEMS_TAB = CREATIVE_MODE_TAB.register("cannibals_items_tab",
+    public static final Supplier<CreativeModeTab> ASSISTANT_HATS_TAB = CREATIVE_MODE_TAB.register("assistant_hats_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.TOUGHFLESH.get()))
-                    .title(Component.translatable("creativetab.cannibalsvanity.cannibals_items"))
+                    .title(Component.translatable("creativetab.assistanthats.assistanthats"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.TOUGHFLESH);
-                        output.accept(ModItems.TOUGHBONE);
-                        output.accept(ModItems.SALT);
-                        output.accept(ModItems.COOKEDFLESH);
-
-                        output.accept(ModItems.CORPSE_AXE);
-                        output.accept(ModItems.CORPSE_SHOVEL);
-                        output.accept(ModItems.CORPSE_PICKAXE);
-                        output.accept(ModItems.CORPSE_PLOW);
-                        output.accept(ModItems.CORPSE_SWORD);
-
-                        output.accept(ModItems.BONE_HELMET);
-                        output.accept(ModItems.BONE_CHESTPLATE);
-                        output.accept(ModItems.BONE_LEGGINGS);
-                        output.accept(ModItems.BONE_BOOTS);
-
-                        output.accept(ModItems.CORPSE_HELMET);
-                        output.accept(ModItems.CORPSE_CHESTPLATE);
-                        output.accept(ModItems.CORPSE_LEGGINGS);
-                        output.accept(ModItems.CORPSE_BOOTS);
                     }).build());
 
     public static final Supplier<CreativeModeTab> CANNIBALS_BLOCKS_TAB = CREATIVE_MODE_TAB.register("cannibals_blocks_tab",

@@ -1,36 +1,3 @@
 {
-  "item.cannibalsvanity.toughflesh": "Tough Flesh",
-  "item.cannibalsvanity.toughbone": "Tough Bone",
-  "item.cannibalsvanity.salt": "Salt",
-  "item.cannibalsvanity.cookedflesh": "Cooked Flesh",
-
-  "item.cannibalsvanity.corpse_sword": "Visceral Sword",
-  "item.cannibalsvanity.corpse_axe": "Oseo Axe",
-  "item.cannibalsvanity.corpse_pickaxe": "Oseo Pickaxe",
-  "item.cannibalsvanity.corpse_shovel": "Oseo Shovel",
-  "item.cannibalsvanity.corpse_hoe": "Visceral Plow",
-
-  "item.cannibalsvanity.corpse_helmet": "Drauger Head",
-  "item.cannibalsvanity.corpse_chestplate": "Drauger Torso",
-  "item.cannibalsvanity.corpse_leggings": "Drauger Legs",
-  "item.cannibalsvanity.corpse_boots": "Drauger Feet",
-  "item.cannibalsvanity.bone_helmet": "Cranium",
-  "item.cannibalsvanity.bone_chestplate": "Rib Chestplate",
-  "item.cannibalsvanity.bone_leggings": "Femur Leggings",
-  "item.cannibalsvanity.bone_boots": "Cobbled Bone Boots",
-
-  "block.cannibalsvanity.toughflesh_block": "Block of Flesh",
-  "block.cannibalsvanity.corpse_block": "Block of Corpses",
-  "block.cannibalsvanity.corpse_stairs": "Corpse Stairs",
-  "block.cannibalsvanity.corpse_button": "Corpse Button",
-  "block.cannibalsvanity.corpse_slab": "Corpse Slab",
-  "block.cannibalsvanity.corpse_fence": "Corpse Fence",
-  "block.cannibalsvanity.corpse_gate": "Corpse Gate",
-  "block.cannibalsvanity.corpse_door": "Corpse Door",
-  "block.cannibalsvanity.corpse_trapdoor": "Corpse Trapdoor",
-  "block.cannibalsvanity.corpse_pressureplate": "Corpse Pressure Plate",
-  "block.cannibalsvanity.corpse_wall": "Corpse Wall",
-
-  "creativetab.cannibalsvanity.cannibals_items": "Cannibal's Items",
-  "creativetab.cannibalsvanity.cannibals_blocks": "Cannibal's Blocks"
+  "item.assistanthats.guestt_hat": "Guestt's Extended Orbital Brim Bowler Hat"
 }

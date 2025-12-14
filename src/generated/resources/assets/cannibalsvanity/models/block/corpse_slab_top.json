@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "cannibalsvanity:block/corpse_block",
-    "side": "cannibalsvanity:block/corpse_block",
-    "top": "cannibalsvanity:block/corpse_block"
-  }
-}

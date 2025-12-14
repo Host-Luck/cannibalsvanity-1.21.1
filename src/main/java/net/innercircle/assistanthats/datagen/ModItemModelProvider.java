@@ -1,6 +1,7 @@
 package net.innercircle.assistanthats.datagen;
 
-import net.innercircle.assistanthats.CannibalsVanity;
+import net.innercircle.assistanthats.AssistantHats;
+import net.innercircle.assistanthats.AssistantHats;
 import net.innercircle.assistanthats.block.ModBlocks;
 import net.innercircle.assistanthats.item.ModItems;
 import net.minecraft.data.PackOutput;
@@ -35,7 +36,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     }
 
     public ModItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
-        super(output, CannibalsVanity.MOD_ID, existingFileHelper);
+        super(output, AssistantHats.MOD_ID, existingFileHelper);
     }
 
     @Override
@@ -59,7 +60,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     }
 
     private void trimmedArmorItem(DeferredItem<Item> itemDeferredItem) {
-        final String MOD_ID = CannibalsVanity.MOD_ID;
+        final String MOD_ID = AssistantHats.MOD_ID;
 
         if(itemDeferredItem.get() instanceof ArmorItem armorItem) {
             trimMaterials.forEach((trimMaterial, value) -> {
@@ -82,25 +83,25 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     public void buttonItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {
         this.withExistingParent(block.getId().getPath(), mcLoc("block/button_inventory"))
-                .texture("texture", ResourceLocation.fromNamespaceAndPath(CannibalsVanity.MOD_ID,
+                .texture("texture", ResourceLocation.fromNamespaceAndPath(AssistantHats.MOD_ID,
                         "block/" + baseBlock.getId().getPath()));
     }
 
     public void fenceItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {
         this.withExistingParent(block.getId().getPath(), mcLoc("block/fence_inventory"))
-                .texture("texture", ResourceLocation.fromNamespaceAndPath(CannibalsVanity.MOD_ID,
+                .texture("texture", ResourceLocation.fromNamespaceAndPath(AssistantHats.MOD_ID,
                         "block/" + baseBlock.getId().getPath()));
     }
 
     public void wallItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {
         this.withExistingParent(block.getId().getPath(), mcLoc("block/wall_inventory"))
-                .texture("texture", ResourceLocation.fromNamespaceAndPath(CannibalsVanity.MOD_ID,
+                .texture("texture", ResourceLocation.fromNamespaceAndPath(AssistantHats.MOD_ID,
                         "block/" + baseBlock.getId().getPath()));
     }
 
     private ItemModelBuilder handheldItem(DeferredItem<?> item) {
         return withExistingParent(item.getId().getPath(),
                 ResourceLocation.parse("item/handheld")).texture("layer0",
-                ResourceLocation.fromNamespaceAndPath(CannibalsVanity.MOD_ID, "item/" + item.getId().getPath()));
+                ResourceLocation.fromNamespaceAndPath(AssistantHats.MOD_ID, "item/" + item.getId().getPath()));
     }
 }

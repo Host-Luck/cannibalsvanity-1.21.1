@@ -1,6 +1,7 @@
 package net.innercircle.assistanthats.datagen;
 
-import net.innercircle.assistanthats.CannibalsVanity;
+import net.innercircle.assistanthats.AssistantHats;
+import net.innercircle.assistanthats.AssistantHats;
 import net.innercircle.assistanthats.block.ModBlocks;
 import net.innercircle.assistanthats.item.ModItems;
 import net.minecraft.core.HolderLookup;
@@ -102,7 +103,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                                                                        List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTime, String pGroup, String pRecipeName) {
         for(ItemLike itemLike : pIngredients) {
             SimpleCookingRecipeBuilder.generic(Ingredient.of(itemLike), pCategory, pResult, pExperience, pCookingTime, pCookingSerializer, factory).group(pGroup).unlockedBy(getHasName(itemLike), has(itemLike))
-                    .save(recipeOutput, CannibalsVanity.MOD_ID + ":" + getItemName(pResult) + pRecipeName + "_" + getItemName(itemLike));
+                    .save(recipeOutput, AssistantHats.MOD_ID + ":" + getItemName(pResult) + pRecipeName + "_" + getItemName(itemLike));
         }
     }
 }
